@@ -439,7 +439,7 @@ gives unlimited permission to copy, distribute and modify it."
 
 ac_pwd='/home/scp-eee/chello'
 srcdir='.'
-INSTALL='/bin/install -c'
+INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
 AWK='gawk'
 test -n "$AWK" || AWK=awk
@@ -681,6 +681,7 @@ S["infodir"]="${datarootdir}/info"
 S["docdir"]="${datarootdir}/doc/${PACKAGE_TARNAME}"
 S["oldincludedir"]="/usr/include"
 S["includedir"]="${prefix}/include"
+S["runstatedir"]="${localstatedir}/run"
 S["localstatedir"]="${prefix}/var"
 S["sharedstatedir"]="${prefix}/com"
 S["sysconfdir"]="${prefix}/etc"
